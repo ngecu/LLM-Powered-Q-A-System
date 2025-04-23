@@ -3,9 +3,9 @@ from openai import OpenAI
 
 client = OpenAI(
     # This is the default and can be omitted
-    api_key=os.environ.get("OPENAI_API_KEY"),
+    # api_key=os.environ.get("OPENAI_API_KEY"),
 
-  
+    api_key="sk-abcdef1234567890abcdef1234567890abcdef12w",
 
 )
 
