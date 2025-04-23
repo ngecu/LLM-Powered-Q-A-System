@@ -10,6 +10,7 @@ client = OpenAI(
 )
 
 async def get_llm_response(query: str) -> str:
+    print("query ",query)
     prompt = f"""
     You are a helpful assistant. Please answer the following question clearly and structured:
     {query}
