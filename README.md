@@ -56,7 +56,7 @@ cd backend
 pip install -r requirements.txt
 
 # Start FastAPI server
-uvicorn main:app --reload
+uvicorn server:app --reload
 ```
 
 ### Frontend (Next.js)
@@ -74,7 +74,7 @@ npm run dev
 ---
 
 ## 🔗 Live Demo
-Coming soon!
+[llm-powered-q-a-system.onrender.com/](https://llm-powered-q-a-system.onrender.com/)
 
 ---
 
