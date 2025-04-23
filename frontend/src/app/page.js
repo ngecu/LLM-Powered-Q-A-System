@@ -2,6 +2,8 @@
 
 import Image from "next/image";
 import { useState } from "react";
+const ENDPOINT = "https://llm-powered-q-a-system-backend.onrender.com/"
+// const ENDPOINT = "http://127.0.0.1:8000"
 
 export default function Home() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
@@ -20,7 +22,7 @@ export default function Home() {
     setLoading(true);
   
     try {
-      const res = await fetch('http://127.0.0.1:8000/ask', {
+      const res = await fetch(`${ENDPOINT}/ask`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ query: input }), // ✅ correct field
