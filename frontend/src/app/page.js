@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
-const ENDPOINT = "https://llm-powered-q-a-system-backend.onrender.com/"
+const ENDPOINT = "https://llm-powered-q-a-system-backend.onrender.com"
 // const ENDPOINT = "http://127.0.0.1:8000"
 
 export default function Home() {
