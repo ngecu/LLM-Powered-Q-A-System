@@ -77,6 +77,3 @@ npm run dev
 [llm-powered-q-a-system.onrender.com/](https://llm-powered-q-a-system.onrender.com/)
 
 ---
-
-## ✍️ Final Note
-I HAVE CLEARLY UNDERSTOOD THE KEY POINTERS FOR THE TECHNICAL ASSESSMENT.
